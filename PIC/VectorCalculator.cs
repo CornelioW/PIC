@@ -13,7 +13,7 @@ namespace PIC
                 Console.WriteLine("\nMenú:");
                 Console.WriteLine("1. Sumar vectores");
                 Console.WriteLine("2. Restar vectores");
-                Console.WriteLine("3. Calcular producto escalar");
+                Console.WriteLine("3. Calcular producto punto");
                 Console.WriteLine("4. Salir");
 
                 Console.Write("Seleccione una opción: ");
