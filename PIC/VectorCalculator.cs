@@ -28,7 +28,7 @@ namespace PIC
                         RestarVectores();
                         break;
                     case "3":
-                        CalcularProductoEscalar();
+                        CalcularProductoPunto();
                         break;
                     case "4":
                         Console.WriteLine("Saliendo del programa.");
@@ -58,9 +58,9 @@ namespace PIC
             Console.WriteLine("Resultado de la resta: " + FormatVector(resta));
         }
 
-        private static void CalcularProductoEscalar()
+        private static void CalcularProductoPunto()
         {
-            Console.WriteLine("\nProducto Escalar:");
+            Console.WriteLine("\nProducto Punto:");
             Vector vector1 = VectorInput.Usuario("Ingrese el primer vector:");
             Vector vector2 = VectorInput.Usuario("Ingrese el segundo vector:");
             double producto = VectorOperations.Product(vector1, vector2);
