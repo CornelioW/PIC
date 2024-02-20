@@ -64,7 +64,7 @@ namespace PIC
             Vector vector1 = VectorInput.Usuario("Ingrese el primer vector:");
             Vector vector2 = VectorInput.Usuario("Ingrese el segundo vector:");
             double producto = VectorOperations.Product(vector1, vector2);
-            Console.WriteLine("Resultado del producto escalar: " + producto);
+            Console.WriteLine("Resultado del producto punto: " + producto);
         }
 
         private static string FormatVector(Vector vector)
