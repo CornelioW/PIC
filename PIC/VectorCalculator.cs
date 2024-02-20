@@ -60,11 +60,11 @@ namespace PIC
 
         private static void CalcularProductoPunto()
         {
-            Console.WriteLine("\nProducto Punto:");
+            Console.WriteLine("\nProducto Vectorial:");
             Vector vector1 = VectorInput.Usuario("Ingrese el primer vector:");
             Vector vector2 = VectorInput.Usuario("Ingrese el segundo vector:");
-            double producto = VectorOperations.Product(vector1, vector2);
-            Console.WriteLine("Resultado del producto punto: " + producto);
+            Vector producto = VectorOperations.CrossProduct(vector1, vector2);
+            Console.WriteLine("Resultado del producto vectorial: (" + producto.X + ", " + producto.Y + ", " + producto.Z + ")");
         }
 
         private static string FormatVector(Vector vector)
